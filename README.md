@@ -15,3 +15,14 @@ Judul Playlist: Belajar HTML5
 
 <li><button><a href='https://www.w3.org/html/wg/wiki/History'>Sejarah HTML di <b>w3.org</b></a></button></li>
 </ol>
+
+dan beberapa sumber yang dapat digunakan sebagai bahan pembelajaran
+
+<ol>
+<li><button><a href='https://html.spec.whatwg.org/'>sumber dari <b>WHATWG</b></a></button></li>
+<li><button><a href='https://whatwg.org/validator/'>sumber dari <b>WHATWG</b></a></button></li>
+<li><button><a href='https://caniuse.com/'>sumber dari <b>caniuse.com</b></a></button></li>
+<li><button><a href='https://developer.mozila.ord/'>sumber dari <b>developer mozila</b></a></button></li>
+<li><button><a href='https://html5doctor.com/'>sumber dari <b>html5doctor</b></a></button></li>
+<li><button><a href='https://diveintohtml5.info/'>sumber dari <b>diveintohtml5</b></a></button></li>
+</ol>

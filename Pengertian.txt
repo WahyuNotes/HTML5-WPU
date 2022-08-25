@@ -1,3 +1,11 @@
 'Istilah HTML5 dignakan sebagai jargon yang mengacu pada teknologi web yang modern, yang dikembangkan oleh WHATWG'-https://html.spec.whatwg.org
 
 WHATWG = The Web Hypertext Application Technology Working Group
+
+Apa yang baru di HTML5?
+1. Semantic(Elements) => Header, footer menjadi element tersendiri
+2. Media (Elements) => Video, Audio, dll
+3. Canva & SVG => Gambar berbentuk SVG bisa digunakan di HTML5
+4. Form (Validations) => seperti input email/password
+5 Web (Storage) => bisa menyimpan data dengan web storage
+Accessibility =>
