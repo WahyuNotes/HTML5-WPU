@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio & Video</audio></title>
+    <style>
+        /* body, h1{
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .hero{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.3);
+            background-image: linear-gradient(to right, rgba(0,242,96,0.3), rgba(5,117,230, 0.3));
+            color: white;
+            font-size: 3em;
+            position: relative;
+            min-height: 100vw;
+            overflow: hidden;
+        }
+        .video-bg{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            min-height: 100%;
+            min-width:100%;
+            z-index: -1;
+        } */
+    </style>
+</head>
+<body>
+    <!-- <audio src="/audio/Anda - Menghitung Hari2.mp3" controls ></audio> -->
+
+    <!-- <figure>
+        <figcaption>
+            Dengarkan "lagu lofi" sekarang
+        </figcaption>
+        <audio controls autoplay>
+            <source src="/audio/hozier - Take me to curch.mp3" type="audio/mp3">
+            <source src="/audio/Anda - Menghitung Hari2.mp3" type="audio/mp3">
+        </audio>
+    </figure> -->
+    <!-- <video src="/video/Wildlife.mp4" width="640" height="480" type="video/mp4" controls></video> -->
+
+    <!-- <figure>
+        <figcaption>
+            Ocean Waves
+        </figcaption>
+        <video loop autoplay muted width="400px" poster="https://ychef.files.bbci.co.uk/976x549/p014pzq8.jpg">
+            <source src="/video/Wildlife.mp4">
+            Browser tidak mendukung<code>video</code>
+        </video>
+    </figure> -->
+
+    <!-- <div class="hero">
+        <h1>Wellcome to WPU</h1>
+        <video src="/video/Wildlife.mp4" autoplay muted loop class="video-bg"></video>
+    </div> -->
+
+    <video width="400" src="/video/Wildlife.mp4" autoplay controls type='video/mp4' class=''>
+        <track src="/caption/caption.vtt" kind="captions" title="Bahasa Indonesia" srclang="id">
+    </video>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/SQMruNuafHk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

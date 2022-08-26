@@ -1,0 +1,73 @@
+src = source;
+
+alt = alternative text, berguna juga agar dibaca oleh screen reader, dan bisa digunakan juga untuk SEO;
+jika gambar disimpan di dalam link, maka tulis url linknya di dalam alt. Agar user dapat mencari sendiri di URL tersebut;
+
+width & height = untuk menentukan ukuran gambar;
+
+title = Untuk menuliskan informasi tambahan mengenai gambar, menambahkan tooltip saat mouse hover,  gunakan sebagai tambahan dari alt;
+
+
+atribut yang baru
+srcset = Untuk membuat halaman web responsive, memilih gambar yang berbeda berdasarkan syarat tertentu, bisa bedasarkan lebar layar atau kerapatan pixelnya
+contoh 1: srcset="/img/saitamaSmall.jpg 500w, /img/saitamaMedium.jpg 750w,/img/saitamaLarge.jpg 1000w
+
+contoh 2: srcset="/img/saitamaSmall.jpg 500x, /img/saitamaMedium.jpg 750x,/img/saitamaLarge.jpg 1000x
+
+sizes: untuk menggunakan media query untuk mengatur ukuran gambar
+
+Loading :
+-Menentukan bagaimana gambar di-load oleh browser
+-bisa diisi 'eager' (default) atau 'lazy'
+-penggunaan ini mampu meningkatkan performa saat berselancar, sehingga tidak memakan banyak network ketika tidak scroll sampai bawah
+
+
+figure:
+-Merepresentasikan konten yang berdiri sendiri tanpa mempengaruhi flow halaman
+-Bisa gambar, ilustrasi, diagram, code snippet
+-Biasanya gambar yang memiliki caption, menggunakan <figcaption>
+
+picture:
+-bertujuan untuk optimasi halaman agar menghemat bandwidth dan mempercepat load time
+-Bisa digunakan jg sebagai art direction, untuk menampilkan gambar yang berbeda pada display/device yang berbeda
+
+<audio> attributes
+-src // sumber lagu
+-constrols //mengendalikan control audio
+-preload //membuat lagu di load dlu sebelum dijalankan
+-autoplay //untuk menjalankan audio secara otomatis
+-loop //bisa digunakan agar lagu diulang-ulang
+-muted//untuk mute audio
+Format yang dpt digunakan: .mp3, .wav, .ogg
+
+<video> attributes:
+-src
+-controls
+-poster // menampilkan gambar ketika video tidak bisa ditampilkan
+-preload
+-autoplay
+-muted
+-width
+-height
+
+<track> attribute = untuk subtitle
+-src
+-kind
+-title = untuk memberi tahu judul
+-srclang = untuk menulis kode (indo/english)
+
+
+<canvas>
+>Definisi: 'Elemen canvas dapat digunakan untuk menampilkan grafis, seni, atau gambar secara langsung menggunakan scipt'
+canvas dapat membuat shape apa saja
+
+<canvas>
+-Digunakan untuk menggambar grafis menggunakan JS
+-Biasa digunakan untuk membuat:animasi, game, visualisasi data, manipulasi foto dan pemrosesan video secara real-time
+-Dapat berisi object 2D dan 3D
+-Menggunakan Canvas API untuk 2 dimensi dan WebGL API untuk 3 dimensi
+
+<canvas> attribute
+-width
+-height
+

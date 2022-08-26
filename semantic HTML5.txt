@@ -1,0 +1,24 @@
+Alasan menulis Semantic HTML:
+-Accessibility(mudah dibaca user)
+-Maintainability(mudah dibaca developer)
+-SEO(mudah dibaca mesin pencari)
+
+-HTML harus ditulis dengan merepresentasikan data yang akan ditampilkan, bukan berdasarkan bagaimana dia ditampilkan (style)
+-Memudahkan aksesibilitas, terutama saat menggunakan screen reader
+-Lebih mudah mencari dan mengelola code yang memiliki makna
+-Berpengaruh pada SEO, karena semantic HTML dianggap sebagai kata kunci penting
+
+Element di HTML5:
+Beberapa kategori: Link https://html.spec.whatwg.org/multipage/dom.html#content-categories
+1. Metadata
+2. Flow
+3. Sectioning
+4. Heading
+5. Phrasing
+6. Embedded
+7. Interactive
+
+
+Tentang Accessibility
+WAI-ARIA
+Web Accessibility Initiative - Accessible Rich Internet Applications
