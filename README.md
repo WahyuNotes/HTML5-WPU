@@ -30,3 +30,9 @@ dan beberapa sumber yang dapat digunakan sebagai bahan pembelajaran
 https://dribbble.com/maDByte
 
 https://web.dev/responsive-images/
+
+SVG Resources:
+https://www.blobmaker.app/
+https://www.shapedivider.app/
+https://www.svgrepo.com/
+https://simpleicons.org/
