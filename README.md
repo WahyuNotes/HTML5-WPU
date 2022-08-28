@@ -26,3 +26,7 @@ dan beberapa sumber yang dapat digunakan sebagai bahan pembelajaran
 <li><button><a href='https://html5doctor.com/'>sumber dari <b>html5doctor</b></a></button></li>
 <li><button><a href='https://diveintohtml5.info/'>sumber dari <b>diveintohtml5</b></a></button></li>
 </ol>
+
+https://dribbble.com/maDByte
+
+https://web.dev/responsive-images/

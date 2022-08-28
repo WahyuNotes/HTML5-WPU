@@ -71,3 +71,24 @@ canvas dapat membuat shape apa saja
 -width
 -height
 
+Canvas API shapes
+1. Rectangle
+2. Arc/Circle
+3. Path
+4. Bezier & Quadratic Curve //kurva
+
+contoh dari Rectangle menggunakan canvas API(default):
+c.fillRect(25,25,100,100);
+
+Canvas 3rd party library:
+1. D3.js
+2. three.js
+3. p5.js
+4. matter.js
+5. Phaser
+6. babylon.js
+
+Canvas API animation:
+-requestAnimationFrame();//untuk membuat animasinya berjalan
+-clearRect();//untuk membersihkan frame sebelumnya pada kanvas
+
