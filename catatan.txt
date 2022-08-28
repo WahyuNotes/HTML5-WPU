@@ -92,3 +92,25 @@ Canvas API animation:
 -requestAnimationFrame();//untuk membuat animasinya berjalan
 -clearRect();//untuk membersihkan frame sebelumnya pada kanvas
 
+<svg>
+-Digunakan untuk membuat gambar yang tidak akan hilang kualitasnya meskipun diperbesar
+-Bisa dengan cara membuat sendiri garis dan bentuknya
+-atau dengan menggunakan grafis svg terpisah (.svg)
+-setiap elemen di dalam SVG dapat dimanipulasi menggunakan bantuan constrols
+-Didukung oleh beberapa browser modern 
+
+Keuntungan SVG:
+-Scalability //gak perlu khawatir gambar pecah karena berbasis vector
+-interactivity //gampang dikasih efek kayak hover dll
+-easily editable // gampang diedit, karena bisa diubah nilai dari atribut-atributnya
+-compact file-size //ukurannya lebih kecil
+-SEO frendly //karena dibikin menggunakan xml
+
+SVG shapes:
+-Rectangle
+-Circle
+-Ellipse
+-Line
+-Polyline
+-Polygon
+-Path
