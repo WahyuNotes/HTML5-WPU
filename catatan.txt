@@ -114,3 +114,7 @@ SVG shapes:
 -Polyline
 -Polygon
 -Path
+
+Form Validation:
+-Client Side
+-Server Side
